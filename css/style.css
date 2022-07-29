@@ -25,7 +25,7 @@ img {
 
 
 body {
-    font-family: 'JetBrains Mono', monospace;
+    
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
     color: #fff;
 }
 
-.header__inner {
+.header__top-inner {
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
@@ -50,7 +50,7 @@ body {
 }
 
 .header__logo-title {
-    font-family: Georgia, serif;
+    font-family: 'Georgia', 'serif';
     font-size: 32px;
     line-height: 35px;
     letter-spacing: .3px;
@@ -87,5 +87,52 @@ body {
 
 .menu__link:hover {
     color: #fafafa;
-    border-bottom: 3px solid #f1cdb3;
+    border-bottom: 1px solid #f1cdb3;
+}
+
+.header__content {
+    margin-top: 60px;
+}
+
+
+.header__content-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__content-left {
+    margin-top: 163px;
+}
+
+.header__content-title {
+    font-family: 'Georgia', 'serif';
+    font-size: 44px;
+    line-height: 57px;
+    max-width: 355px;
+}
+
+.header__content-text {
+    margin-top: 42px;
+    max-width: 460px;
+    font-family: 'Arial', 'serif';
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+.header__content-btn {
+    display: inline-block;
+    margin-top: 42px;
+    background-color: #f1cdb3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #292929;
+}
+
+.header__content-img {
+    position: relative;
+    top: 29px;
 }
