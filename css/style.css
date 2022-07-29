@@ -32,6 +32,60 @@ body {
     max-width: 1230px;
     padding: 0 15px;
     margin: 0 auto;
-
 }
 
+.header {
+    min-height: 100vh;
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header__inner {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-title {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: .3px;
+    color: #f1cdb3;
+}
+
+.header__logo-subtitle {
+    font-family: 'Arial', 'serif';
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+
+.header__menu-items {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 35px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-family: 'Arial', 'serif';
+    font-size: 15px;
+    line-height: 24px;
+    transition: all .3s;
+}
+
+.menu__link:hover {
+    color: #fafafa;
+    border-bottom: 3px solid #f1cdb3;
+}
