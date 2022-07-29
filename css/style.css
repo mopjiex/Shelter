@@ -34,6 +34,8 @@ body {
     margin: 0 auto;
 }
 
+/* HEADER */
+
 .header {
     min-height: 100vh;
     background-image: url(../images/header-bg.jpg);
@@ -135,4 +137,112 @@ body {
 .header__content-img {
     position: relative;
     top: 29px;
+}
+
+/* --HEADER */
+
+
+/* MAIN */
+
+
+
+/* ABOUT */
+
+.about {
+    padding: 60px 0 100px 0;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about__title {
+    max-width: 370px;
+    font-family: 'Georgia', 'serif';
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 3px;
+}
+
+.about__text {
+    margin-top: 25px;
+    max-width: 430px;
+    font-family: 'Arial', 'serif';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* --ABOUT */
+
+
+.friends {
+    padding: 80px 0 100px 0;
+    background-color: #f6f6f6;
+}
+
+.friends__title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #545454;
+    
+}
+
+.friends__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.friends__card {
+    background-color: #fafafa;
+}
+
+.friends__card-title {
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.friends__card-btn {
+    display: inline-block;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    margin: 30px 0px 45px 35px;
+    text-align: center;
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.friends__btn-bottom {
+    max-width: 290px;
+    margin: 0 auto;
+}
+
+.friends__btn {
+    display: inline-block;
+    margin-top: 60px;
+    background-color: #f1cdb3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #292929;
 }
