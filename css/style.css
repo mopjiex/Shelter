@@ -135,16 +135,19 @@ body {
 }
 
 .header__content-img {
+    /*
     position: relative;
     top: 29px;
+    transform: translateY(29px);*/
+    margin-top: 29px;
+    
+    
 }
 
 /* --HEADER */
 
 
 /* MAIN */
-
-
 
 /* ABOUT */
 
@@ -178,7 +181,7 @@ body {
 
 /* --ABOUT */
 
-
+/* FRIENDS */
 .friends {
     padding: 80px 0 100px 0;
     background-color: #f6f6f6;
@@ -197,6 +200,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
+    position: relative;
 }
 
 .friends__card {
@@ -228,6 +232,30 @@ body {
     text-align: center;
 }
 
+.friends__card-prev,
+.friends__card-next {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    padding: 23px 19px;
+    border: 1px solid #f1cdb3;
+    border-radius: 100px;
+}
+
+.friends__card-prev {
+    top: 185px;
+    left: -103px;
+}
+
+.friends__card-next {
+    top: 185px;
+    right: -103px;
+}
+
+.arrow__img {
+    padding-bottom: 10px;
+}
+
 .friends__btn-bottom {
     max-width: 290px;
     margin: 0 auto;
@@ -246,3 +274,145 @@ body {
     letter-spacing: 2px;
     color: #292929;
 }
+
+/* --FRIENDS */
+
+
+/* DONATION */
+.donation {
+    padding: 90px 0 100px 0;
+    background-color: #f6f6f6;
+}
+
+.donation__inner {
+    display: flex;
+    gap: 30px;
+}
+
+.donation-img {
+    max-width: 505px;
+    max-height: 261px;
+}
+
+.donation__title {
+    max-width: 303px;
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 3px;
+    color: #545454;
+}
+
+.donation__text {
+    margin-top: 20px;
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    color: #545454;
+}
+
+.donation__card {
+    margin-top: 20px;
+    max-width: 370px;
+    max-height: 43px;
+    border-radius: 9px;
+    padding: 10px 15px;
+    background-color: #f1cdb3;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.donation__card-num {
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    color: #545454;
+}
+
+.donation__subtext {
+    margin-top: 20px;
+    max-width: 380px;
+    font-family: 'Arial', 'serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    font-style: italic;
+    color: #b2b2b2;
+}
+/* --DONATION */
+
+/* --MAIN */
+
+/* FOOTER*/
+.footer {
+    padding: 56px 0 0px 0;
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contacts-title,
+.footer__address-title {
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 3px;
+}
+
+.footer__contacts-title {
+    max-width: 292px;
+}
+
+.footer__address-title {
+    max-width: 274px;
+}
+
+.footer__contacts-item,
+.footer__address-item {
+    display: block;
+    margin-top: 45px;
+    font-family: 'Georgia', 'serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    color: #f1cdb3;
+}
+
+.footer__contacts-item {
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer__address-img {
+    max-width: 22px;
+    max-height: 32px;
+}
+
+.footer__address-item {
+    max-width: 315px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer__address-item span {
+
+}
+/* --FOOTER */
