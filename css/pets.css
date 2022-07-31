@@ -187,10 +187,9 @@ img {
     height: 52px;
     border-radius: 100px;
     padding: 17px 0 0 22px;
-    margin-right: 20px;
+    margin: 0 auto;
     cursor: pointer;
-    justify-content: center;
-    justify-items: center;
+    
 
 }
 

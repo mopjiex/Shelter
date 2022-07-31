@@ -37,7 +37,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    padding: 30px 0 30px 0;
+    padding: 30px 0 0px 0;
 }
 
 .header__top-inner {
@@ -84,6 +84,63 @@ img {
 
 .menu__link:hover {
     color: #f1cdb3;
+    border-bottom: 2px solid #f1cdb3;
+}
+
+.menu__burger {
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.burger__wands {
+    cursor: pointer;
+    z-index: 5;
+}
+
+.burger__wand {
+    border-top: 2px solid #fff;
+    margin-bottom: 8px;
+}
+
+.active {
+    border-top: 2px solid #f1cdb3;
+    transform: rotate(20deg);
+}
+
+.menu__burger-list {
+    position: absolute;
+    top: 30px;
+    right: -10px;
+    width: 320px;
+    background-color: #292929;
+    z-index: 1;
+}
+
+.dn {
+    display: none;
+}
+
+.menu__burger-item {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.menu__burger-item:last-child {
+    margin-bottom: 40px;
+}
+
+.menu__burger-link {
+    font-family: 'Arial', 'serif';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 51px;
+    color: #cdcdcd;
+}
+
+.menu__burger-link:hover {
+    color: #fafafa;
     border-bottom: 2px solid #f1cdb3;
 }
 
@@ -140,7 +197,7 @@ img {
     position: relative;
     top: 29px;
     transform: translateY(29px);*/
-    margin-top: 44px;
+    margin-top: 59px;
     
     
 }
@@ -199,7 +256,7 @@ img {
 
 .friends__inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 60px;
     position: relative;
 }
@@ -256,13 +313,13 @@ img {
 }
 
 .friends__card-prev {
-    top: 185px;
-    left: -103px;
+    top: 190px;
+    left: 0px;
 }
 
 .friends__card-next {
-    top: 185px;
-    right: -103px;
+    top: 190px;
+    right: 0px;
 }
 
 .arrow__img {
@@ -476,3 +533,48 @@ img {
 
 }
 /* --FOOTER */
+
+
+
+@media(max-width: 1050px) {
+    .header__content-inner {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__content {
+        margin: 0;
+    }
+
+    .header__content-left{
+        margin-top: 60px;
+    }
+
+    .header__btn {
+        max-width: 212px;
+        margin: 0 auto;
+    }
+
+    .header__content-btn {
+        margin-top: 57px;
+    }
+    
+    .header__content-img {
+        max-width: 570px;
+        max-height: 595px;
+        align-self: center;
+    }
+}
+
+@media(max-width: 720px) {
+    .header__menu-items {
+        display: none;
+    }
+
+    .menu__burger  {
+        display: block;
+    }
+    
+    
+}
