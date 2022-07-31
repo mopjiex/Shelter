@@ -23,11 +23,6 @@ img {
    object-fit: cover; 
 }
 
-
-body {
-    
-}
-
 .container {
     max-width: 1230px;
     padding: 0 15px;
@@ -42,10 +37,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    padding: 30px 0 30px 0;
 }
 
 .header__top-inner {
-    padding-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,12 +79,12 @@ body {
     font-family: 'Arial', 'serif';
     font-size: 15px;
     line-height: 24px;
-    transition: all .3s;
+    transition: color .3s;
 }
 
 .menu__link:hover {
-    color: #fafafa;
-    border-bottom: 1px solid #f1cdb3;
+    color: #f1cdb3;
+    border-bottom: 2px solid #f1cdb3;
 }
 
 .header__content {
@@ -108,6 +103,7 @@ body {
 
 .header__content-title {
     font-family: 'Georgia', 'serif';
+    font-weight: 400;
     font-size: 44px;
     line-height: 57px;
     max-width: 355px;
@@ -132,6 +128,11 @@ body {
     line-height: 22px;
     letter-spacing: 2px;
     color: #292929;
+    transition: all .3s;
+}
+
+.header__content-btn:hover {
+    background-color: #f1ad83;
 }
 
 .header__content-img {
@@ -139,7 +140,7 @@ body {
     position: relative;
     top: 29px;
     transform: translateY(29px);*/
-    margin-top: 29px;
+    margin-top: 44px;
     
     
 }
@@ -205,6 +206,7 @@ body {
 
 .friends__card {
     background-color: #fafafa;
+    cursor: pointer;
 }
 
 .friends__card-title {
@@ -230,6 +232,11 @@ body {
     line-height: 22px;
     letter-spacing: 2px;
     text-align: center;
+    transition: all .3s;
+}
+
+.friends__card-btn:hover {
+    background-color: #f1ad83;
 }
 
 .friends__card-prev,
@@ -240,6 +247,12 @@ body {
     padding: 23px 19px;
     border: 1px solid #f1cdb3;
     border-radius: 100px;
+    transition: all .3s;
+}
+
+.friends__card-prev:hover,
+.friends__card-next:hover {
+    background-color: #f1ad83;
 }
 
 .friends__card-prev {
@@ -273,6 +286,11 @@ body {
     line-height: 22px;
     letter-spacing: 2px;
     color: #292929;
+    transition: all .3s;
+}
+
+.friends__btn:hover {
+    background-color: #f1ad83;
 }
 
 /* --FRIENDS */
