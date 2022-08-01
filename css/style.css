@@ -386,6 +386,9 @@ img {
     text-align: center;
 }
 
+.help__card-img {
+}
+
 
 .help__card-title {
     margin-top: 30px;
@@ -575,8 +578,48 @@ img {
         max-height: 595px;
         align-self: center;
     }
+
+    .footer__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__inner-contacts-address {
+        display: flex;
+        gap: 60px;
+    }
+
+    .footer__img {
+        margin-top: 65px;
+    }
 }
 
+
+@media(max-width: 960px) {
+    .donation__card {
+        max-width: 310px;
+    }
+
+    .donation__card-num {
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 900px) {
+    .donation__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .donation__content {
+        order: -1;
+    }
+    
+    .donation-img {
+        margin-top: 60px;
+    }
+}
 
 @media(max-width: 810px) {
     .friends__card-prev {
@@ -640,16 +683,30 @@ img {
     .friends__btn {
         margin-top: 100px;
     }
+
+    .footer__contacts-title {
+        font-size: 30px;
+    }
  
 }
 
 @media(max-width: 620px) {
+    .footer__inner-contacts-address {
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 600px) {
     .header__content-img {
         max-width: 500px;
         max-height: 450px;
+    }
+}
+
+@media(max-width: 560px) {
+    .donation-img {
+        max-width: 400px;
+        max-height: 205px;
     }
 }
 
@@ -663,11 +720,21 @@ img {
         top: 50px;
         min-width: 454px;
     }
+
+    .donation__title {
+        text-align: center;
+    }
+
 }
 
 @media(max-width: 430px) {
     .menu__burger-list {
         min-width: 424px;
+    }
+
+    .donation-img {
+        max-width: 330px;
+        max-height: 170px;
     }
 }
  
@@ -680,6 +747,19 @@ img {
     .menu__burger-list {
         top: 65px;
         min-width: 360px;
+    }
+
+    .donation-img {
+        max-width: 280px;
+        max-height: 140px;
+    }
+
+    .donation__card {
+        max-width: 285px;
+    }
+
+    .donation__card-num {
+        font-size: 13px;
     }
 }
 
@@ -700,6 +780,14 @@ img {
 
     .friends__btn {
         font-size: 16px;
+    }
+
+    .donation__card-img {
+        max-width: 25px;
+    }
+
+    .donation__card-num {
+        font-size: 12px;
     }
 }
 
